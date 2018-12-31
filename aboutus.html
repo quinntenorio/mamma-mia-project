@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<title>Mamma Mia! - About Us</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <style>
+  .backstoryIMG {
+    content:url("images/interior.jpg");
+  }
+  .p1 {
+    padding-left: 450px;
+  }
+  .p2 {
+    padding-right: 450px;
+  }
+  .p3 {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  .pMain {
+    padding-top: 0px;
+  }
+  .personalCardLeft {
+    float: right;
+  }
+  @media screen and (min-width: 0px) {
+    .backstoryIMG {
+      display: none;
+    }
+    .jumbotron {
+      height: 500px;
+    }
+    .p1 {
+      padding-left: 100px;
+    }
+    .p2 {
+      padding-right: 100px;
+    }
+    .p3 {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    .display-2 {
+      text-align: center;
+    }
+    .pMain {
+      padding-top: 20px;
+    }
+    .personalCardLeft {
+      align-items: stretch;
+      align-content: stretch;
+      float: left;
+    }
+  }
+  @media screen and (min-width: 867px) {
+    .backstoryIMG {
+      display: none;
+    }
+    .jumbotron {
+      height: 500px;
+    }
+    .p1 {
+      padding-left: 100px;
+    }
+    .p2 {
+      padding-right: 100px;
+    }
+    .p3 {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+    .display-2 {
+      text-align: center;
+    }
+    .pMain {
+      padding-top: 20px;
+    }
+    .personalCardLeft {
+      align-items: stretch;
+      align-content: stretch;
+      float: left;
+    }
+  }
+  @media screen and (min-width: 1230px) {
+    .backstoryIMG {
+      display: block;
+      content:url("images/interior.jpg");
+    }
+    .pMain {
+      padding-top: 0px;
+    }
+    .jumbotron {
+      height: 925px;
+    }
+    .personalCardLeft {
+      float: right;
+    }
+  }
+</style>
+  </head>
+  
+  <body class="bg-secondary">
+    <div class="container-fluid text-center text-light bg-dark">
+      <h1 class="font-italic">Mamma Mia!</h1>
+    </div>
+    
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+      <!-- Logo -->
+      <a class="navbar-brand" href="#"><img src="https://image.flaticon.com/icons/svg/325/325562.svg" alt="logo" style="width:40px;"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navcollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navcollapse">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="reservations.html">Reservations+</a></li>
+          <li class="nav-item active"><a class="nav-link" href="#">About Us</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid" style="background-color:#cccccc;">
+      <div class="row">
+        <!-- The general introduction area -->
+        <div class="col-sm-4" style="background-color:#cccccc;">
+          <div class="display-2">About Us</div>
+        </div>
+        <div class="col-sm-8" style="background-color:#cccccc;">
+          <br />
+          <p class="pMain text-center">
+            Mamma Mia can be found in the foothills of the Rocky Mountains, in Colorful Colorado.
+            Stop by after spending a satisfying day exploring the beautiful city of Golden, the Clear Creek river,
+            and the many hiking trails surrounding the area.
+          </p>
+        </div>
+      </div>
+      <br />
+      <!-- The Backstory Section -->
+      <!-- The following section uses a Card image overlay -->
+      <div class="jumbotron bg-dark text-center pre-scrollable" style="max-height: 100%; min-width: 100%; min-height: 100%;">
+        <div class="card card-inverse">
+          <img class="backstoryIMG card-img-top" src="images/interior.jpg" alt="Interior image">
+          <div class="card-img-overlay text-light">
+            <div class="card-title display-4 text-right">Our Beginning...</div>
+            <p class="card-text text-right p1">
+              Mamma Mia started out as a dream that turned into a reality. Four people from four very different
+              backgrounds came together over the love of one thing: Italian food. They wanted to bring the
+              authencity of real Italian food to the midwest. They dreamed of opening a restaurant that
+              would have the food and atmosphere that they had long desired to see in the midwest. 
+              And from that dream, Mamma Mia was born.
+            </p>
+            <br />
+            __________________________________________<br />
+            ______<br />
+            __________________________________________<br />
+            <br />
+            <div class="card-title display-4 text-left">Our Food...</div>
+            <p class="card-text text-left p2">
+              We are proud to offer a mix of authentic Italian food and some popular American varieties
+              of the food that so many people love. We also have a selection of wine that includes some
+              of our favorite brands, both made in the U.S. and from France and Italy. 
+            </p>
+            <br />
+            __________________________________________<br />
+            ______<br />
+            __________________________________________<br />
+            <br />
+            <div class="card-title display-4 text-center">Today...</div>
+            <p class="card-text p3">
+              We are doing what we love: serving good food to amazing people. As of today,
+              Mamma Mia has won the award for Best Restaurant in Golden for 5 consecutive
+              years! We are proud to hold that tile and hope to hold it for many years to come.
+              We hope that you chose to dine with us and become part of our family!
+            </p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <!-- Our People Section -->
+      <!-- The following section uses BS4 Cards with images and text-->
+      <div class="display-4 text-center">Our Leaders</div>
+      <div class="row">
+        <div class="col-sm" style="background-color:#cccccc;">
+          <!-- Quinn -->
+          <div class="card personalCardLeft" style="width:400px">
+            <img class="card-img-top" src="images/quinn.jpg" alt="Quinn profile image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">Quinn Tenorio <span class="badge badge-dark">Beverage Manager</span></h4>
+              <p class="card-text">
+                Oversees management and profitability of bars, lounges and other beverage-related outlets.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm" style="background-color:#cccccc;">
+          <!-- Aimee -->
+          <div class="card personalCard" style="width:400px">
+            <div class="card-body">
+              <h4 class="card-title">Aimee True <span class="badge badge-dark">Dining Room Manager</span></h4>
+              <p class="card-text">
+                Supervises dining room operation and coordinates foodservice activities. Supervises and trains employees,
+                confers with food preparation employees and other personnel to plan menus and related activities.
+              </p>
+            </div>
+            <img class="card-img-bottom" src="images/aimee.jpg" alt="Aimee profile image" style="width:100%">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="background-color:#cccccc;"><br /></div>
+    <div class="container-fluid">
+       <div class="row">
+        <div class="col-sm" style="background-color:#cccccc;">
+          <!-- Ramy -->
+          <div class="card personalCardLeft" style="width:400px">
+            <div class="card-body">
+              <h4 class="card-title">Ramy Elzarad <span class="badge badge-dark">Executive Chef</span></h4>
+              <p class="card-text">
+                The executive chef, or head chef, leads the kitchen. He is in charge of everything that goes out of the
+                kitchen and maintains full control of the kitchen staff at all times. He also ensures kitchens provide nutritious,
+                safe, eye-appealing, properly flavored food.
+              </p>
+            </div>
+            <img class="card-img-bottom" src="images/ramy.jpg" alt="Ramy profile image" style="width:100%">
+          </div>
+        </div>
+        <div class="col-sm" style="background-color:#cccccc;">
+          <!-- Hao -->
+          <div class="card personalCard" style="width:400px">
+            <img class="card-img-top" src="images/hao.jpg" alt="Hao profile image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">Haoxin Luo <span class="badge badge-dark">Catering Manager</span></h4>
+              <p class="card-text">
+                Responsible for all catered functions from origination to execution, including delegation of responsibilities.
+              </p>
+            </div>
+          </div>
+        </div>
+       </div>
+    </div>
+    <div>
+      <h4 class="display-1 small text-light text-center">*Note: this website is purely fictional. All images are not owned or taken by us, and are completely the work of others. </h4>  
+    </div>
+    
+  </body>
+</html>

@@ -1,0 +1,187 @@
+#container_titleHeader {
+    background-image: url(images/bggroundPhoto3.jpg);
+    background-size: cover;
+    height:40vw;
+    position: relative;
+}
+
+#container_restaurantName {
+    margin-top: 22%;
+    margin-left: 20%;
+    color:aliceblue;
+    text-shadow: 1px 1px 3px  #000000;
+    font-family: cursive;
+}
+
+/* Small devices (tablets, 544px and up)*/
+@media (min-width: 544px) {  
+    h2 {font-size:1.5rem;} /*1rem = 16px*/
+    .scroll-down { 
+        width: 10px;
+        height: 10px;
+    }
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+    h2 {font-size:2rem;} /*1rem = 16px*/
+    .scroll-down { 
+        width: 20px;
+        height: 20px;
+    }
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    h2 {font-size:2.5rem;} /*1rem = 16px*/
+    .scroll-down { 
+        width: 32px;
+        height: 32px;
+    }
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    h2 {font-size:3rem;} /*1rem = 16px*/    
+}
+
+
+
+/*****scroll down button*******/
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.scroll-down {
+  opacity: 1;
+  -webkit-transition: all .5s ease-in 3s;
+  transition: all .5s ease-in 3s;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 30px;
+  left: 52%;
+  margin-left: -16px;
+  display: block;
+  width: 32px;
+  height: 32px;
+  border: 2px solid #FFF;
+  background-size: 14px auto;
+  border-radius: 50%;
+  z-index: 2;
+  -webkit-animation: bounce 2s infinite 2s;
+  animation: bounce 2s infinite 2s;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.scroll-down:before {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 6px);
+    transform: rotate(-45deg);
+    display: block;
+    width: 12px;
+    height: 12px;
+    content: "";
+    border: 2px solid white;
+    border-width: 0px 0 2px 2px;
+}
+
+@keyframes bounce {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
+
+/***************************/
+
+
+
+#container_special_button:hover {
+    color:black;
+    border-color: orange;
+    background-color: orange;
+}
+
+/*****carousel*******/
+
+#container_special{
+    padding:20px;
+    background-color: antiquewhite;
+}
+
+#container_special_button {
+    border-color: darkred;
+    border-width: medium;
+    color:darkred;
+    font-family:cursive;
+}
+#container_special_button:hover{
+    background-color: darkred;
+    color: antiquewhite;
+    border-color: darkred;
+}
+
+#carouselExampleIndicators {
+}
+
+#container_Reservation {
+    padding:90px; 
+    background-image: url(images/researvation.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+/***************************/
+
+#container_discount {
+    padding:20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background-color:darkred;
+    color:antiquewhite;
+}
+
+#container_discount h2 {
+    
+}
+
+#container_discount .card {
+    color:black;
+}
+
+#container_Reservation_button {
+    border-color: aliceblue;
+    border-width: medium;
+    color:aliceblue;
+    font-family:cursive;
+    margin-left:40%;
+}
+
+#container_Reservation_button:hover {
+    color:antiquewhite;
+    border-color: darkred;
+    background-color: darkred;
+}
